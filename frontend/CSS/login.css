@@ -1,0 +1,29 @@
+html,body{
+background-image: url(https://images.wallpaperscraft.com/image/scifi_chip_structure_139654_1280x720.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.card{
+height: 370px;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color:indigo;
+color: black;
+border:0 !important;
+}
+
+.login_btn{
+background-color:darkslateblue;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}

@@ -1,0 +1,28 @@
+html,body{
+    background-image: url(https://images.wallpaperscraft.com/image/scifi_chip_structure_139654_1280x720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+}
+    
+.card{
+    height: 575px;
+    width: 800px;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+    
+input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+    
+}
+        
+.signin_btn{
+    background-color:darkslateblue;
+}
+    
+.signin_btn:hover{
+    color: black;
+    background-color: white;
+}
