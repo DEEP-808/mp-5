@@ -150,7 +150,9 @@ app.get('/api/users/:usrname',(req,res)=>{
    ratings={codechef:'',codeforces:''};
    user.find({username: name},async function(err, data){
       ratings.codechef=data[0].codechef_solved.ratings; 
+      ratings.codeforces=data[0].codeforces_solved.ratings;
    })
+   res.send(ratings);
 })
 
 app.post('/login',  function(req, res){
