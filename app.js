@@ -273,10 +273,10 @@ app.get('/dashboard',isAuth,(req,res)=> {
 //    console.log('heresult',result);
 // });
 
-var hrurl='https://www.hackerrank.com/18H51A04D6';
-hr.getHackerRank(hrurl,function(result){
-  console.log("Hr result",result);
-})
+// var hrurl='https://www.hackerrank.com/18H51A04D6';
+// hr.getHackerRank(hrurl,function(result){
+//   console.log("Hr result",result);
+// })
 
 app.get('/logout', function(req, res){
   req.session.destroy((err)=>{
